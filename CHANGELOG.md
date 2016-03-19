@@ -1,3 +1,24 @@
+### 1.1
+- Added compatibility with Laravel 5.2
+
+### 1.0.12
+- Added regional for date localization
+
+### 1.0.7
+- Added Session and Cookie Middleware
+- Deleted useSessionLocale and useCookieLocale from config file
+
+### 1.0
+- Laravel 5 supported
+- Added Middleware
+- Removed deprecated functions
+
+### 0.15.0
+- Added tests from scratch
+- Refactored multiple functions
+- getLocalizedURL now accepts attributes for the url (if needed)
+- $routeName is always a string, no need to be an array if it just have the translation key for the current url
+
 ### 0.14.0
 - Laravel 4.2 compatibility
 - Removed Laravel 4.0 compatibility
